@@ -15,10 +15,6 @@ mongoose.connect(uri, {
   useCreateIndex: true,
 });
 
-// mongoose.connect("mongodb://127.0.0.1/experts-portal", {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
 
 // check connecttions
 mongoose.connection.on("connected", () => {
